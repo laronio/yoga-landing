@@ -199,6 +199,14 @@
         padding-bottom: 50px;
     }
 
+    .footer__contact {
+        max-width: 470px;
+    }
+
+    .icons__hover + .icons__hover {
+        margin-left: 25px;
+    }
+
 }
 
 @media (max-width: 968px) {
@@ -257,6 +265,15 @@
 
     .subscriptions {
         width: 55%;
+    }
+
+    .footer__container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .footer__title {
+        margin-bottom: 20px;
     }
 
 }
@@ -535,5 +552,3 @@
         max-width: 300px;
     }
 }
-
-@media (max-width: 320px) {}

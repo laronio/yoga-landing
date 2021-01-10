@@ -673,8 +673,11 @@ right: -25px;
   margin-bottom: 70px;
 }
 
+.icons__hover + .icons__hover {
+  margin-left: 15px;
+}
+
 .icons__hover {
-  margin-right: 15px;
   font-size: 18px;
 }
 
