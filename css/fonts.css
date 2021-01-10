@@ -1,0 +1,6 @@
+@font-face {
+    font-family: "Freestyle script";
+    font-style: normal;
+    font-weight: normal;
+    src: local("freestyle_script"), url(../fonts/freestyle_script.ttf);
+}
