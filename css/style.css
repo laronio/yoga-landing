@@ -380,7 +380,8 @@ main {
 
 .picture__element:hover::before,
 .picture__element:active::before,
-.picture__element:hover .pictures__circle {
+.picture__element:hover .pictures__circle,
+.picture__element:active .pictures__circle {
   opacity: 0.8;
   transition: all 0.7s ease;
   -webkit-transition: all 0.7s ease;
