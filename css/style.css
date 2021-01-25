@@ -379,9 +379,9 @@ main {
 }
 
 .picture__element:hover::before,
-.picture__element:active::before,
+.picture__element:focus::before,
 .picture__element:hover .pictures__circle,
-.picture__element:active .pictures__circle {
+.picture__element:focus .pictures__circle {
   opacity: 0.8;
   transition: all 0.7s ease;
   -webkit-transition: all 0.7s ease;
@@ -737,6 +737,10 @@ margin-left: 29px;
   background-color: #fff;
 }
 
+.slider__recalls:hover {
+  cursor: pointer;
+}
+
 .slider__page {
   padding-top: 38px;
   padding: 38px 230px 65px 65px;
@@ -874,6 +878,10 @@ outline: none;
   left: 31%;
 }
 
+.little__slider:hover {
+  cursor: pointer;
+}
+
 .page__little__slider {
   display: flex;
   justify-content: space-between;
@@ -918,6 +926,10 @@ outline: none;
 .btn__next__little {
   top: calc(50% - 15px);
   right: -55px;
+}
+
+.slider__btn__little:hover {
+  cursor: pointer;
 }
 
 
