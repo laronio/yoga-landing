@@ -43,6 +43,7 @@ $(document).ready(function () {
   dots: true,
   infinite: true,
   arrows: false,
+  fade: true,
   speed: 500,
   cssEase: 'linear'
   });   

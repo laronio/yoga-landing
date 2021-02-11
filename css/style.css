@@ -433,7 +433,7 @@ main {
 }
 
 .about__slider {
-  max-width: 545px;
+  width: 545px;
 }
 
 .slick__slide {
@@ -710,7 +710,7 @@ right: -25px;
       -o-transform: translate(-33px, 0px);
 }
 
-.footer__phone span:last-child {
+.footer__phone a:last-child {
 display: block;
 margin-left: 29px;
 }
@@ -827,13 +827,15 @@ margin-left: 29px;
 
 .slick-dots {
   position: absolute;
-  right: -42%;
+  right: -34%;
   top: -25%;
   transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
+  width: 85%;
+  cursor: default;
 }
 
 .slick-dots > li > button {
